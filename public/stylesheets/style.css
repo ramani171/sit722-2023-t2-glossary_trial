@@ -1,0 +1,87 @@
+/* 
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+body {
+  padding: 50px;
+  font-family: sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+
+
+table {
+  align-self: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 95%;
+  text-align: left;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+caption {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #333;
+  margin-bottom: 16px;
+}
+thead {
+  background-color: #333;
+  color:azure;
+  font-size: 0.875rem;
+	text-transform: uppercase;
+	letter-spacing: 2%;
+}
+tbody th {
+  background-color: rgb(145, 140, 140);
+  color: #fff;
+  text-align: left;
+}
+/* tbody tr:nth-child(even) th {
+  background-color: #25c;
+} */
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  }
+tr:hover {
+    background-color: white;
+  }
+
+.bg {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 180%;
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 91%;
+  align-self: center;
+
+}
+
+.topnav p {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
